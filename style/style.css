@@ -1,0 +1,123 @@
+/* Estilo geral da página */
+body {
+  background-color: #333;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Título principal com efeito de brilho */
+h1 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 50px;
+  background-color: linear-gradient(90deg, gold, orange, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 2px 2px 1px black;
+  animation: glow 2s infinite alternate;
+}
+
+/* Animação de brilho do título */
+@keyframes glow {
+  form {
+    text-shadow: 2px 2px 1px black;
+  }
+  to {
+    text-shadow: 2px 2px 2px yellow;
+  }
+}
+
+/* Placar dos jogadores */
+#placar {
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+}
+#placar p {
+  margin: 5px 0;
+}
+
+/* Área do tabuleiro */
+.stage {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+/* Estilo das células do jogo */
+.square {
+  width: 90px;
+  height: 90px;
+  background-color: rgb(61, 152, 194);
+  border: 2px solid white;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-size: 50px;
+}
+
+/* Ícone do jogador O */
+.o {
+  position: relative;
+}
+.o:after {
+  position: absolute;
+  content: "🛡️";
+  font-size: 50px;
+  line-height: 100px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+/* Ícone do jogador X */
+.x {
+  position: relative;
+}
+.x:after {
+  position: absolute;
+  content: "⚔️";
+  font-size: 50px;
+  line-height: 100px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+/* Estilo dos botões */
+button {
+  background-color: rgb(61, 152, 194);
+  color: white;
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  border: 2px solid white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+button:hover {
+  color: rgb(61, 152, 194);
+  background-color: #333;
+}
+
+/* Texto do vencedor */
+#ganhador {
+  color: white;
+}
+
+/* Animação para células vencedoras */
+.winner {
+  animation: blink 1s infinite alternate;
+}
+@keyframes blink {
+  from {
+    background-color: gold;
+    transform: scale(1);
+  }
+  to {
+    background-color: orange;
+    transform: scale(1.1);
+  }
+}

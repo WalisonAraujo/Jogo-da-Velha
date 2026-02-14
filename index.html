@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Configurações básicas da página -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>Jogo Da Velha</title>
+  </head>
+  <body>
+    <!-- Título principal -->
+    <h1>Jogo da Velha</h1>
+
+    <!-- Placar dos jogadores -->
+    <div id="placar">
+      <p>Escudo 🛡️: <span id="scoreEscudo">0</span></p>
+      <p>Espada ⚔️: <span id="scoreEspada">0</span></p>
+    </div>
+
+    <!-- Tabuleiro do jogo -->
+    <div class="stage">
+      <div>
+        <div id="0" class="square"></div>
+        <div id="1" class="square"></div>
+        <div id="2" class="square"></div>
+      </div>
+      <div>
+        <div id="3" class="square"></div>
+        <div id="4" class="square"></div>
+        <div id="5" class="square"></div>
+      </div>
+      <div>
+        <div id="6" class="square"></div>
+        <div id="7" class="square"></div>
+        <div id="8" class="square"></div>
+      </div>
+
+      <!-- Botões de controle -->
+      <button id="startBtn">Start Game</button>
+      <button id="resetBtn">Reset Game</button>
+
+      <!-- Área para mostrar o vencedor -->
+      <h2 id="ganhador"></h2>
+    </div>
+
+    <!-- Scripts do jogo (lógica e interface) -->
+    <script src="./javascript/game.js"></script>
+    <script src="./javascript/interface.js"></script>
+  </body>
+</html>
