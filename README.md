@@ -24,7 +24,7 @@ Inclui placar, animações nas células vencedoras e design estilizado para deix
 
 ## 📷 Demonstração
 
-https://github.com/user-attachments/assets/a4a755d4-7fd7-477c-a04b-80a4ab6e92fc
+https://github.com/user-attachments/assets/3ef7e0f5-ee5b-4555-b9e5-e5a5dbfd704d
 
 ---
 
