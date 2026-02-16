@@ -5,29 +5,26 @@ Inclui placar, animações nas células vencedoras e design estilizado para deix
 
 ---
 
-## 🚀 Funcionalidades
-- Tabuleiro interativo com 9 células.
-- Dois jogadores: 🛡️ **Escudo** e ⚔️ **Espada**.
-- Detecção automática de vitória e empate.
-- Destaque animado nas células vencedoras.
-- Placar atualizado em tempo real.
-- Botões para iniciar e reiniciar o jogo.
+## 🚀 Além da lógica básica, o desafio foi incrementar com:  
+✅ Placar automático  
+✅ Animações nas células vencedoras  
+✅ Botão de reinício (Restart)  
+✅ Design estilizado com gradiente e brilho  
 
 ---
 
-## 🛠️ Tecnologias utilizadas
-- **HTML5** → estrutura da página.
-- **CSS3** → estilização, animações e responsividade.
-- **JavaScript (ES6)** → lógica do jogo e interação com a interface.
+## 🛠️ Esse projeto me ajudou a praticar:  
+- Estrutura semântica com HTML5  
+- Estilização e animações com CSS3  
+- Manipulação de DOM e eventos com JavaScript moderno  
+- Separação entre lógica e interface em arquivos diferentes  
+- Organização de projeto e boas práticas de código 
 
 ---
 
 ## 📷 Demonstração
 
-
-https://github.com/user-attachments/assets/e5280f21-a231-4bcf-95e1-930143b6e262
-
-
+https://github.com/user-attachments/assets/a4a755d4-7fd7-477c-a04b-80a4ab6e92fc
 
 ---
 
