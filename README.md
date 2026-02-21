@@ -24,6 +24,12 @@ Inclui placar, animações nas células vencedoras e design estilizado para deix
 
 ## 📷 Demonstração
 
+                                    ----------------------Primeira Versão do Jogo----------------------          
+<img width="752" height="753" alt="jogo-da-velha-primeira-versão" src="https://github.com/user-attachments/assets/3e2224a7-ca22-45a0-b96c-0aa25ff721e5" />
+
+
+
+                                 ----------------------Segunda Versão com mais Funcionalidades----------------------
 https://github.com/user-attachments/assets/3ef7e0f5-ee5b-4555-b9e5-e5a5dbfd704d
 
 ---
